@@ -8,6 +8,7 @@ export const InputContainer = styled.div`
     width: 80%;
     margin: 20px;
 
+
     input{
         background: transparent;
         border: 0;
@@ -16,6 +17,9 @@ export const InputContainer = styled.div`
         height: 62px;
         color: #FFFFFF;
         font-size: 20px;
+        :focus {
+    outline: none;
+}
     }
 
 `
